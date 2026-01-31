@@ -1,0 +1,30 @@
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas: cm, mm, in, px, pt, pc
+    Medidas Relativas: en, ex, rem, vw, vh, % 
+    */
+    font-size: 15px ;
+    font-weight: lighter;
+
+}
+
+h1{
+    color: rgb(82, 32, 3);
+    text-align: center;
+    text-shadow: 1.5px 1px 2px rgba(112, 49, 12, 0.795);
+    /*
+    SHORTHANDS: simplificação das fontes
+    font- font-style -> font-weight -> font-size -> font-family
+    */
+
+    font: italic bold 40px 'Work Sans', sans-serif;
+}
+
+h2{
+    color:  rgb(82, 32, 3);
+    font-style: medium;
+    font-size: 20px;
+    text-decoration: underline;
+
+}

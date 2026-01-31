@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/html.ico.ico" type="image/x-icon">
+    <title>Desafio 09</title>
+    <style>
+        body{
+        background-color:rgb(17, 17, 17);
+        text-align: center;
+        }
+        h1{
+        color:rgb(255, 255, 255);
+        }
+
+        .videos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            max-width: 800px;
+            margin: auto
+        }
+    </style>
+</head>
+<body>
+    <h1>Vídeos legais para assistir</h1>
+
+    <div class="videos">
+        <a href="video1.html" rel="next">
+            <img src="imagens/thumb-chicago.png" alt="Imagem1" width="360px"> </a>
+        <a href="video2.html" rel="next">
+            <img src="imagens/thumb-london.png" alt="Imagem2" width="360px"> </a>
+        <a href="video3.html" rel="next">
+            <img src="imagens/thumb-paris.png" alt="Imagem3" width="360px"> </a>
+        <a href="video4.html" rel="next">
+            <img src="imagens/thumb-ny.png" alt="Imagem4" width="360px"> </a>
+    </div>
+        
+</body>
+</html>
